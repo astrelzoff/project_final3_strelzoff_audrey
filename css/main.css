@@ -1,0 +1,44 @@
+/* Set all box sizing to border-box */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.hidden {
+    font-size: 0;
+    color: rgba(251, 251, 251, 0);
+    line-height: 0;
+}
+
+/* Insert background image and set initial fonts */
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #1f1d25;
+    background-image: url(../img/background-paper.jpg);
+    background-repeat: repeat-y;
+}
+
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: #ed1c24;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
