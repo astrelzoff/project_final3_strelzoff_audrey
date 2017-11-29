@@ -82,6 +82,10 @@ Ul {
     list-style-type: none;
 }
 
+#menu-container ul.menu > li > a {
+    /*background: #1f1d25;*/
+}
+
 header nav {
     background-color: #1f1d25;
     color: #ffffff;
@@ -89,4 +93,5 @@ header nav {
 
 header nav ul {
     padding: 2% 0;
+    width: 100%;
 }
