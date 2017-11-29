@@ -18,10 +18,16 @@ html {
 /* Insert background image and set initial fonts */
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
     color: #1f1d25;
-    background-image: url(../img/background-paper.jpg);
     background-repeat: repeat-y;
 }
+
+body.paper1 {
+    background-image: url(../img/background-paper.jpg);
+}
+
+
 
 h1 {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -41,4 +47,12 @@ h3 {
     color: #ed1c24;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
+}
+
+.container {
+
+}
+
+Ul {
+    list-style-type: none;
 }
