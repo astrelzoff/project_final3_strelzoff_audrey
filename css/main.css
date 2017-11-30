@@ -130,3 +130,19 @@ main figure img {
     text-align: center;
     margin: 0 15%;
 }
+
+/* I gave the sponsor logo a specific width, so that the text below would stay matching this width as the window resizes. */
+#sponsorlogoheader {
+    width: 130px;
+}
+
+#sponsorlogoheader img {
+    width: 100%;
+}
+
+#sponsorlogoheader p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1d25;
+}
