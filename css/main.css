@@ -147,3 +147,14 @@ main figure img {
     margin-top: 0;
     border-bottom: 1px solid #1f1d25;
 }
+
+#sponsorlist {
+    width: 100%;
+}
+
+#sponsorlist img {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    margin: 0 5% 3% 0;
+}
