@@ -82,10 +82,6 @@ Ul {
     list-style-type: none;
 }
 
-#menu-container ul.menu > li > a {
-    /*background: #1f1d25;*/
-}
-
 header nav {
     background-color: #1f1d25;
     color: #ffffff;
@@ -94,4 +90,43 @@ header nav {
 header nav ul {
     padding: 2% 0;
     width: 100%;
+}
+
+.paper1 main {
+    background-color: rgba(251, 251, 251, 0.75);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+main figure#featureimage {
+    margin: 0;
+    border: solid 1rem #1f1d25;
+}
+
+main figure img {
+    width: 100%;
+}
+
+#donate {
+    position: relative;
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+
+/* Drop shadow for irregular shaped png image of buttons */
+.drop-shadow {
+    filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+}
+
+#donate figcaption {
+    font-family: 'Vollkorn', serif;
+    font-size: 1.6rem;
+    color: #faf185;
+    position: absolute;
+    top: 15%;
+    width: 70%;
+    text-align: center;
+    margin: 0 15%;
 }
