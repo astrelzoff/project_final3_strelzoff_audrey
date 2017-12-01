@@ -137,12 +137,9 @@ a#donatelink {
 }
 
 .red {
-    color: #faf185;
-}
-
-.yellow {
     color: #ed1c24;
 }
+
 
 /* I gave the sponsor logo a specific width, so that the text below would stay matching this width as the window resizes. */
 #sponsorlogoheader {
