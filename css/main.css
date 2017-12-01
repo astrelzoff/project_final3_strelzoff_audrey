@@ -124,12 +124,24 @@ main figure img {
 #donate figcaption {
     font-family: 'Vollkorn', serif;
     font-size: 1.3rem;
-    color: #faf185;
+
     position: absolute;
     top: 15%;
     width: 70%;
     text-align: center;
     margin: 0 15%;
+}
+
+a#donatelink {
+    text-decoration: none;
+}
+
+.red {
+    color: #faf185;
+}
+
+.yellow {
+    color: #ed1c24;
 }
 
 /* I gave the sponsor logo a specific width, so that the text below would stay matching this width as the window resizes. */
