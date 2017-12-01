@@ -149,15 +149,11 @@ a#donatelink {
     width: 130px;
 }
 
-#sponsorlogoheader img {
-    width: 100%;
-}
 
-#sponsorlogoheader p {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-top: 0;
+
+#sponsorlogoheader {
     border-bottom: 1px solid #1f1d25;
+    margin:0;
 }
 
 #sponsorlist {
@@ -169,4 +165,8 @@ a#donatelink {
     max-width: 100px;
     display: inline-block;
     margin: 0 5% 3% 0;
+}
+
+#sponsorlogoheader img {
+    width: 100%;
 }
