@@ -153,7 +153,7 @@ a#donatelink {
 
 #sponsorlogoheader {
     border-bottom: 1px solid #1f1d25;
-    margin:0;
+    margin: 0;
 }
 
 #sponsorlist {
@@ -165,8 +165,37 @@ a#donatelink {
     max-width: 100px;
     display: inline-block;
     margin: 0 5% 3% 0;
+    vertical-align: middle;
 }
 
 #sponsorlogoheader img {
     width: 100%;
+}
+
+footer {
+    background: #ffffff;
+}
+
+footer ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+footer ul li {
+    width: calc(96% / 3);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer ul li a img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+footer p {
+    color: rgba(31, 29, 37, 0.5);
+    margin: 0;
+    padding: 0 0 1% 0;
+    text-align: center;
 }
