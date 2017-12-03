@@ -35,6 +35,10 @@ $(document).ready(function () {
         'thumbnailLabel': {'position': 'onBottom'}
     });
     jQuery('#nanogalleryB').nanogallery2({
+        'thumbnailWidth': '200',
+        'thumbnailHeight': 'auto',
+        <!-- 'thumbnailAlignment': 'center' -->
+        'thumbnailLabel': {'position': 'onBottom'}
     });
 
 });
