@@ -197,10 +197,25 @@ footer p {
     text-align: center;
 }
 
+#policy {
+    color: #406fb6;
+    cursor: pointer;
+}
+
+#policy:hover {
+    text-decoration: underline;
+}
+
 #closepolicy {
     width: 25px;
     position: relative;
     left: 90%;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+#showpolicy {
+    background-color: rgba(31, 29, 37, 0.1);
 }
 
 #showpolicy h3 {

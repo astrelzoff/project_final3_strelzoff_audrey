@@ -36,6 +36,7 @@ $(document).ready(function () {
         $('#showpolicy').show();
     });
 
+    // On click of the x image, hide the policy
     $('#closepolicy').on('click', function () {
         $('#showpolicy').hide();
     });
