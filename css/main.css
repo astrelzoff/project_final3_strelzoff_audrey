@@ -27,6 +27,9 @@ body.paper1 {
     background-image: url(../img/background-paper.jpg);
 }
 
+body.canvas1 {
+    background-image: url(../img/background-canvas.jpg);
+}
 
 /*  set initial fonts */
 h1 {
@@ -92,10 +95,18 @@ header nav ul {
     width: 100%;
 }
 
-.paper1 main {
-    background-color: rgba(251, 251, 251, 0.75);
+main {
     padding-left: 2%;
     padding-right: 2%;
+    margin: 0 2%;
+}
+
+.paper1 main {
+    background-color: rgba(251, 251, 251, 0.75);
+}
+
+.canvas1 main {
+    background-color: rgba(251, 251, 251, 0.75);
 }
 
 main figure#featureimage {
