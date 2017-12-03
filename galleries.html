@@ -3,12 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Advanced Web 2 | Final - Part 3</title>
+    <title>Galleries | ADSO</title>
     <meta name="description" content="This is a redesign for the Arts and Design Society of Fort Walton Beach and is strictly for educational purposes.">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+
+    <link href="css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="css/responsive-menu.css">
 
@@ -58,7 +60,16 @@
         </header>
 
         <main>
+            <h2>Galleries</h2>
+            <div id="nanogalleryA" data-nanogallery2>
 
+                    <h3>21st Southeast Regional Juried Fine Arts Exhibition 2013</h3>
+                    <a href="img/gallery-21st/img_001.jpg" data-ngthumb="img/gallery-21st/img_001.jpg" >Dreams, by Heather Mitchell</a>
+                    <a href="img/gallery-21st/img_002.jpg" data-ngthumb="img/gallery-21st/img_002.jpg" >Beach Rocks XIV, by Young Summers</a>
+                    <a href="img/gallery-21st/img_003.jpg" data-ngthumb="img/gallery-21st/img_003.jpg" >Figure Study, by Margaret Ann Garrett</a>
+                    <a href="img/gallery-21st/img_004.jpg" data-ngthumb="img/gallery-21st/img_004.jpg" >Big Sky Over New Mexico, by Pat Roberts</a>
+                    <a href="img/gallery-21st/img_005.jpg" data-ngthumb="img/gallery-21st/img_005.jpg" >Agua Hopper, by Brad Blair</a>
+            </div>
         </main>
 
         <footer>
@@ -67,6 +78,13 @@
                 <li><a href=""><img src="img/4_facebook_link.png" title="ADSO on Facebook" alt="ADSO on Facebook" width="51" ></a></li>
                 <li><a href=""><img src="img/8_twitter_link.png" title="ADSO on Twitter" alt="ADSO on Twitter" width="51" ></a></li>
             </ul>
+            <figure>
+                <a href="https://www.paypal.com" target="_blank"><img class="topimg drop-shadow" id="donate" src="img/button_red.png" alt="Donate Button" width="183"></a>
+
+                <figcaption class="hidden">DONATE NOW
+                    <!-- <span id="one-2">THANK YOU</span> -->
+                </figcaption>
+            </figure>
             <p>Copyright of Audrey Strelzoff and The Arts and Design Society - This version is for educational purposes</p>
         </footer>
     </div>
@@ -75,6 +93,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
 
     <script type="text/javascript" src="js/responsive-menu.js"></script>
+    <script type="text/javascript" src="js/jquery.nanogallery2.min.js"></script>
 
     <!-- Link to main javascript file -->
     <script src="js/main.js"></script>

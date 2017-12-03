@@ -23,7 +23,18 @@ theButton.addEventListener('mousedown', function () {
     this.src = 'img/button_blue.png';
 });
 
-// jQuery Navigation Plug-in
+
 $(document).ready(function () {
+    // jQuery Navigation Plug-in
     $('#menu-container').responsiveMenu();
+
+    jQuery('#nanogalleryA').nanogallery2({
+        'thumbnailWidth': '200',
+        'thumbnailHeight': 'auto',
+        <!-- 'thumbnailAlignment': 'center' -->
+        'thumbnailLabel': {'position': 'onBottom'}
+    });
+    jQuery('#nanogalleryB').nanogallery2({
+    });
+
 });
