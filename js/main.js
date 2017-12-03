@@ -28,17 +28,9 @@ $(document).ready(function () {
     // jQuery Navigation Plug-in
     $('#menu-container').responsiveMenu();
 
-    // jQuery('#nanogalleryA').nanogallery2({
-    //     'thumbnailWidth': '200',
-    //     'thumbnailHeight': 'auto',
-    //     <!-- 'thumbnailAlignment': 'center' -->
-    //     'thumbnailLabel': {'position': 'onBottom'}
-    // });
-    // jQuery('#nanogalleryB').nanogallery2({
-    //     'thumbnailWidth': '200',
-    //     'thumbnailHeight': 'auto',
-    //     <!-- 'thumbnailAlignment': 'center' -->
-    //     'thumbnailLabel': {'position': 'onBottom'}
-    // });
+    $('#showpolicy').hide();
+    $('#policy').on('click', function () {
+        $('#showpolicy').show();
+    });
 
 });

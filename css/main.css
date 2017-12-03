@@ -196,3 +196,14 @@ footer p {
     padding: 0 0 1% 0;
     text-align: center;
 }
+
+#closepolicy {
+    width: 25px;
+    position: relative;
+    left: 90%;
+}
+
+#showpolicy h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
