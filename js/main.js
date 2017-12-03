@@ -28,9 +28,16 @@ $(document).ready(function () {
     // jQuery Navigation Plug-in
     $('#menu-container').responsiveMenu();
 
+    // Custom jQuery to hide the Classes page Refund Policy
     $('#showpolicy').hide();
+
+    // On click of the policy span, show the policy
     $('#policy').on('click', function () {
         $('#showpolicy').show();
+    });
+
+    $('#closepolicy').on('click', function () {
+        $('#showpolicy').hide();
     });
 
 });
