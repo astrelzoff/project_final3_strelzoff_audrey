@@ -260,6 +260,15 @@ footer p {
     padding-bottom: 0.4rem;
 }
 
+#levels ul li ul li:first-of-type {
+    padding-top: 0.4rem;
+}
+
+#sites ul {
+    padding-left: 1.5rem;
+    line-height: 1.35rem;
+}
+
 #sites ul li a,
 #call a {
     text-decoration: none;
