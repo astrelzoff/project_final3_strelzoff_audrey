@@ -14,7 +14,7 @@ body {
     display: inline-block;
     height: 1%;
     display: block;
-    border: 1px solid #ffffff;
+    border: 0;
 }
 
 #menu-container::after {
