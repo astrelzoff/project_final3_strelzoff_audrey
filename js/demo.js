@@ -37,7 +37,7 @@ $(document).ready(function () {
         clickEvents: {
             click: function (target) {
                 console.log('Cal-1 clicked: ', target);
-                console.log('info', target);
+                $(this).closest('.day-contents').append('info');
             },
             today: function () {
                 console.log('Cal-1 today');
