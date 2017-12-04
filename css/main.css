@@ -266,7 +266,6 @@ footer p {
 
 #call ul li:first-of-type {
     list-style-type: circle;
-
 }
 
 #call ul li:first-of-type h4 {
@@ -277,12 +276,16 @@ footer p {
     padding-bottom: 0.4rem;
 }
 
+#levels ul li ul {
+    list-style-type: disc;
+}
+
 #levels ul li ul li:first-of-type {
     padding-top: 0.4rem;
 }
 
 #sites ul,
-#call ul li {
+#call ul {
     padding-left: 1.5rem;
     line-height: 1.35rem;
 }
