@@ -49,15 +49,16 @@ h1 {
 h2 {
     font-family: 'Vollkorn', serif;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 h3 {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 700;
     color: #ed1c24;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -248,4 +249,24 @@ footer p {
 #showpolicy h3 {
     font-size: 1.2rem;
     margin-top: 0;
+}
+
+#levels ul {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+}
+
+#levels ul li {
+    padding-bottom: 0.4rem;
+}
+
+#sites ul li a,
+#call a {
+    text-decoration: none;
+    color: #406fb6;
+}
+
+#sites ul li a:hover,
+#call a:hover {
+    text-decoration: underline;
 }
