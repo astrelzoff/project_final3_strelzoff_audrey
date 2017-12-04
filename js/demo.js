@@ -15,16 +15,15 @@ $(document).ready(function () {
     // Events to load into calendar
     var eventArray = [
         {
-            title: 'Multi-Day Event',
-            endDate: thisMonth + '-14',
-            startDate: thisMonth + '-10'
-        }, {
-            endDate: thisMonth + '-23',
-            startDate: thisMonth + '-21',
-            title: 'Another Multi-Day Event'
-        }, {
-            date: thisMonth + '-27',
-            title: 'Single Day Event'
+            title: 'Gallery Closure',
+            endDate: thisMonth + '-31',
+            startDate: thisMonth + '-16',
+            info: 'The gallery will be closed beginning December 16 at 4 pm through January 2 at 12 pm.'
+        },
+        {
+            date: thisMonth + '-2',
+            title: 'Potluck Dinner',
+            info: 'Annual Christmas Potluck dinner, Party, and Auction, Friday, December 1, 6 pm until'
         }
     ];
 
@@ -38,6 +37,7 @@ $(document).ready(function () {
         clickEvents: {
             click: function (target) {
                 console.log('Cal-1 clicked: ', target);
+                console.log('info', target);
             },
             today: function () {
                 console.log('Cal-1 today');
