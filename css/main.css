@@ -31,6 +31,14 @@ body.canvas1 {
     background-image: url(../img/background-canvas.jpg);
 }
 
+body.gold1 {
+    background-image: url(../img/background-gold.jpg);
+}
+
+body.silver1 {
+    background-image: url(../img/background-silver.jpg);
+}
+
 /*  set initial fonts */
 h1 {
     margin-top: 0;
@@ -106,6 +114,14 @@ main {
 }
 
 .canvas1 main {
+    background-color: rgba(251, 251, 251, 0.75);
+}
+
+.gold1 main {
+    background-color: rgba(251, 251, 251, 0.75);
+}
+
+.silver1 main {
     background-color: rgba(251, 251, 251, 0.75);
 }
 
