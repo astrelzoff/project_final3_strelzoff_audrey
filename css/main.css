@@ -114,7 +114,10 @@ main {
     background-color: rgba(251, 251, 251, 0.75);
 }
 
-.canvas1 main {
+.canvas1 main section {
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
     background-color: rgba(251, 251, 251, 0.75);
 }
 
@@ -202,15 +205,27 @@ footer {
 }
 
 footer ul {
-    width: 50%;
-    margin: 0 auto;
+    display: inline-block;
+}
+
+footer ul {
+    width: 80%;
+    margin: 0 10%;
     padding: 5% 0;
 }
 
+footer #donate {
+    width: 100%;
+}
+
 footer ul li {
-    width: calc(96% / 3);
+    width: calc(95% / 4);
     display: inline-block;
     vertical-align: middle;
+}
+
+footer ul li:hover {
+    filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
 }
 
 footer ul li a img {
