@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calendar | ADSO</title>
+    <title>Events | ADSO</title>
     <meta name="description" content="This is a redesign for the Arts and Design Society of Fort Walton Beach and is strictly for educational purposes.">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
 
     <link rel="stylesheet" href="css/responsive-menu.css">
-    <link rel="stylesheet" href="css/clndr.css">
+
 
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,23 +22,29 @@
 
             <h1>Arts and Design Society of Fort Walton Beach</h1>
 
-            <ul>
-                <li>17 First Street SE</li>
-                <li>Fort Walton Beach, FL</li>
-                <li>32548</li>
-                <li>adso@artsdesignsociety.org</li>
-            </ul>
-            <ul>
-                <li>Gallery Hours</li>
-                <li>Tue-Fri 12-4 pm</li>
-                <li>Sat 1-4 pm</li>
-                <li>850-244-1271</li>
-            </ul>
+            <div class="address-block">
+                <ul>
+                    <li>17 First Street SE</li>
+                    <li>Fort Walton Beach, FL</li>
+                    <li>32548</li>
+                    <li>adso@artsdesignsociety.org</li>
+                </ul>
+                <ul>
+                    <li>Gallery Hours</li>
+                    <li>Tue-Fri 12-4 pm</li>
+                    <li>Sat 1-4 pm</li>
+                    <li>850-244-1271</li>
+                </ul>
+            </div>
 
             <nav id="menu-container">
 
                 <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Home</a>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </li>
                     <li><a href="calendar.html">Calendar</a></li>
                     <li><a href="classes.html">Classes</a></li>
                     <li><a href="galleries.html">Galleries</a></li>
@@ -55,59 +61,14 @@
         </header>
 
         <main>
-            <div class="cal1"></div>
-            <!-- <div class="cal2">
-                    <script type="text/template" id="template-calendar">
-                        <div class="clndr-controls">
-                            <div class="clndr-previous-button">&lsaquo;</div>
-                            <div class="month"><%= intervalStart.format('M/DD') + ' &mdash; ' + intervalEnd.format('M/DD') %></div>
-                            <div class="clndr-next-button">&rsaquo;</div>
-                        </div>
-                        <div class="clndr-grid">
-                            <div class="days-of-the-week">
-                            <% _.each(daysOfTheWeek, function(day) { %>
-                                <div class="header-day"><%= day %></div>
-                            <% }); %>
-                                <div class="days">
-                                <% _.each(days, function(day) { %>
-                                    <div class="<%= day.classes %>"><%= day.day %></div>
-                                <% }); %>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clndr-today-button">Today</div>
-                    </script>
-                    </div> -->
-                    <!-- <div class="cal3">
-                    <script type="text/template" id="template-calendar-months">
-                        <div class="clndr-controls top">
-                            <div class="clndr-previous-button">&lsaquo;</div>
-                            <div class="clndr-next-button">&rsaquo;</div>
-                        </div>
-                        <div class="clearfix">
-                        <% _.each(months, function(cal) { %>
-                            <div class="cal">
-                                <div class="clndr-controls">
-                                    <div class="month"><%= cal.month.format('MMMM') %></div>
-                                </div>
-                                <div class="clndr-grid">
-                                    <div class="days-of-the-week">
-                                    <% _.each(daysOfTheWeek, function(day) { %>
-                                        <div class="header-day"><%= day %></div>
-                                    <% }); %>
-                                        <div class="days">
-                                        <% _.each(cal.days, function(day) { %>
-                                            <div class="<%= day.classes %>"><%= day.day %></div>
-                                        <% }); %>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <% }); %>
-                        </div>
-                        <div class="clndr-today-button">Today</div>
-                    </script>
-                    </div> -->
+            <h2>Events</h2>
+
+            <div class="googleCalendar">
+                <!-- Cusomize google calendar for art center and insert -->
+                <iframe id="agendaview" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=1000&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=artcenter17%40gmail.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="1000" frameborder="0" scrolling="no"></iframe>
+
+                <iframe id="fullview" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=artcenter17%40gmail.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
         </main>
 
         <footer>
@@ -127,10 +88,7 @@
 
     <script type="text/javascript" src="js/responsive-menu.js"></script>
 
-    <script type="text/javascript" src="js/underscore.min.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/clndr.js"></script>
-    <script src="js/demo.js"></script>
+
 
     <!-- Link to main javascript file -->
     <script src="js/main.js"></script>
