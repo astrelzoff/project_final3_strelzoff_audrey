@@ -565,11 +565,36 @@ footer p {
     main {
         margin: auto;
     }
+
     header img {
         max-width: 318px;
     }
 
     header h1 {
         font-size: 1.8rem;
+    }
+
+    #menu-container ul.menu > li > a {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    header img {
+        padding-bottom: 2%;
+    }
+
+    .address-block {
+        width: 32%;
+        left: 68%;
+        top: 5%;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .address-block ul li {
+        font-size: 1rem;
     }
 }
