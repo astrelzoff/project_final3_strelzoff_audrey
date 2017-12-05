@@ -33,7 +33,7 @@
          '<thead>' +
              "<tr class='header-days'>" +
              '<% for(var i = 0; i < daysOfTheWeek.length; i++) { %>' +
-                 "<td class='header-day'><%= daysOfTheWeek[i] %></td>" +
+                 "<td class='header-day'><%= daysOfTheWeek[i]  %></td>" +
              '<% } %>' +
              '</tr>' +
          '</thead>' +

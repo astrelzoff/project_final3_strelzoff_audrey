@@ -141,6 +141,8 @@ main {
 
 .silver1 main {
     background-color: rgba(251, 251, 251, 0.75);
+    padding-bottom: 0.5%;
+    margin-bottom: 6%;
 }
 
 main figure#featureimage {
