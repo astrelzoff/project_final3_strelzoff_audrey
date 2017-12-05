@@ -110,8 +110,16 @@ main {
     margin: 0 2%;
 }
 
-.paper1 main {
+.paper1 main section {
     background-color: rgba(251, 251, 251, 0.75);
+    padding: 2%;
+    margin: 4% 0;
+}
+
+/* Remove double translucent background from section section */
+.paper1 main section.featuretext,
+.paper1 main section#sponsorlist {
+    background-color: rgba(251, 251, 251, 0);
 }
 
 .canvas1 main section {
@@ -123,6 +131,8 @@ main {
 
 .gold1 main {
     background-color: rgba(251, 251, 251, 0.75);
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 
 .silver1 main {
@@ -171,12 +181,21 @@ a#donatelink {
     color: #ed1c24;
 }
 
+#donatefigure {
+    float: right;
+    width: 40%;
+    margin: 0;
+}
+
+#donatefigure img {
+    width: 100%;
+}
 
 /* I gave the sponsor logo a specific width, so that the text below would stay matching this width as the window resizes. */
 #sponsorlogoheader {
     width: 130px;
-}
 
+}
 
 
 #sponsorlogoheader {
@@ -217,13 +236,15 @@ footer ul {
 footer #donate {
     width: 100%;
 }
+
 footer ul li {
     width: calc(96% / 3);
     display: inline-block;
     vertical-align: middle;
 }
 
-.canvas1 footer ul li, .gold1 footer ul li {
+.canvas1 footer ul li,
+.gold1 footer ul li {
     width: calc(95% / 4);
 }
 
@@ -317,4 +338,16 @@ footer p {
 #sites ul li a:hover,
 #call a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 400px) {
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header ul li {
+        font-size: 0.9rem;
+    }
+
 }
