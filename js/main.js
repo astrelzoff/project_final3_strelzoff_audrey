@@ -28,6 +28,7 @@ $(document).ready(function () {
     // jQuery Navigation Plug-in
     $('#menu-container').responsiveMenu();
 
+
     // Custom jQuery to hide the Classes page Refund Policy
     $('#showpolicy').hide();
 
@@ -39,6 +40,20 @@ $(document).ready(function () {
     // On click of the x image, hide the policy
     $('#closepolicy').on('click', function () {
         $('#showpolicy').hide();
+    });
+
+
+    // Custom jQuery to hide the About div on the home page
+    $('#showabout').hide();
+
+    // On click of the policy span, show the policy
+    $('#about').on('click', function () {
+        $('#showabout').show();
+    });
+
+    // On click of the x image, hide the policy
+    $('#closeabout').on('click', function () {
+        $('#showabout').hide();
     });
 
 });
