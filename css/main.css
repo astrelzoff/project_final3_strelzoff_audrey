@@ -15,6 +15,11 @@ html {
     line-height: 0;
 }
 
+/* Set container overflow to hidden to get rid of horizontal scroll */
+.container {
+    overflow: hidden;
+}
+
 /* Insert background image  */
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -381,6 +386,10 @@ footer p {
     bottom: 0;
 }
 
+#fullview {
+    display: none;
+}
+
 @media (min-width: 400px) {
 
     header h1 {
@@ -438,5 +447,22 @@ footer p {
 
     footer ul {
         padding: 1% 0;
+    }
+}
+
+@media (min-width: 813px) {
+
+    /* Switch to full calendar view at 813 px */
+    #agendaview {
+        display: none;
+    }
+
+    #fullview {
+        display: block;
+
+    }
+
+    .silver1 main {
+        margin-bottom: 30%;
     }
 }
