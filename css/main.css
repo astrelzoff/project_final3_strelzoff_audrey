@@ -217,11 +217,14 @@ footer ul {
 footer #donate {
     width: 100%;
 }
-
 footer ul li {
-    width: calc(95% / 4);
+    width: calc(96% / 3);
     display: inline-block;
     vertical-align: middle;
+}
+
+.canvas1 footer ul li, .gold1 footer ul li {
+    width: calc(95% / 4);
 }
 
 footer ul li:hover {
