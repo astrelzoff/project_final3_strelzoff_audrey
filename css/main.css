@@ -251,7 +251,8 @@ footer ul li {
 
 /* Change to 4 list items with donate button in footer */
 .canvas1 footer ul li,
-.gold1 footer ul li {
+.gold1 footer ul li,
+.silver1 footer ul li {
     width: calc(95% / 4);
 }
 
@@ -355,24 +356,29 @@ footer p {
     text-decoration: underline;
 }
 
+/* Borrowed from codepen: https://codepen.io/profstein/pen/ozrbPJ */
+.googleCalendar {
+    position: relative;
 
-.googleCalendar{
-  position: relative;
-  height: 0;
-  width: 100%;
-  padding-bottom: 50%;
+    /* I set an absolute height because the default looked sqashed */
+    height: 200px;
+    width: 100%;
+    padding-bottom: 50%;
 }
 
-.googleCalendar iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.googleCalendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.googleCalendar iframe .ui-rtsr-name, .ui-rtsr-selected, .ui-rtsr-selected {
-    display: none;
+/* Stick footer on calendar page to bottom of the window */
+.silver1 footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 @media (min-width: 400px) {
@@ -381,8 +387,56 @@ footer p {
         font-size: 1rem;
     }
 
+    footer ul {
+        padding: 2% 0;
+    }
+
     header ul li {
         font-size: 0.9rem;
     }
 
+    footer ul li a img {
+        max-width: 50px;
+    }
+
+    .address-block {
+        width: 93%;
+        position: relative;
+        left: 9%;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 350px) {
+
+    header h1 {
+        font-size: 0.8rem;
+    }
+
+    header img {
+        margin-bottom: 3%;
+    }
+
+    .address-block {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        left: 38%;
+        top: 13%;
+    }
+
+    header ul li {
+        font-size: 0.7rem;
+    }
+
+    footer ul li a img {
+        max-width: 50px;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    footer ul {
+        padding: 1% 0;
+    }
 }
