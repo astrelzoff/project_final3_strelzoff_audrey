@@ -110,6 +110,7 @@ header nav ul {
 }
 
 main {
+    max-width: 1100px;
     padding-left: 2%;
     padding-right: 2%;
     margin: 0 2%;
@@ -477,16 +478,40 @@ footer p {
         font-size: 1.2rem;
     }
 
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 600px) {
+
+    header img {
+        padding-bottom: 3%;
+    }
+
     .address-block {
         width: 50%;
         position: absolute;
         right: 0;
         left: 38%;
-        top: 13%;
+        top: 10%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 700px) {
+
+    header img {
+        padding-bottom: 4%;
     }
 
-    h2 {
-        font-size: 1.5rem;
+    .address-block {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        left: 38%;
+        top: 6%;
     }
 }
 
@@ -528,13 +553,23 @@ footer p {
     }
 }
 
+@media (min-width: 874px) {
+
+    .address-block {
+        top: 8%;
+    }
+}
+
 @media (min-width: 900px) {
 
+    main {
+        margin: auto;
+    }
     header img {
         max-width: 318px;
     }
 
     header h1 {
-        font-size:1.8rem;
+        font-size: 1.8rem;
     }
 }
