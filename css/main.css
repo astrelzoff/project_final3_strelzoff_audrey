@@ -327,6 +327,15 @@ footer p {
     margin-top: 0;
 }
 
+.canvas1 .rightcolumn figure {
+    max-width: 286px;
+    margin: 1em 0 1em 40px;
+}
+
+.rightcolumn p a {
+    margin-left: 40px;
+}
+
 #featuredworkshops ul,
 #weeklyclasses ul {
     list-style-type: circle;
@@ -483,6 +492,10 @@ footer p {
     h2 {
         font-size: 1.5rem;
     }
+
+    .canvas1 h4 {
+        margin-bottom: 0;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 600px) {
@@ -513,6 +526,8 @@ footer p {
         left: 38%;
         top: 6%;
     }
+
+
 }
 
 @media (min-width: 813px) {
@@ -576,6 +591,17 @@ footer p {
 
     #menu-container ul.menu > li > a {
         font-size: 1rem;
+    }
+
+    .canvas1 .leftcolumn,
+    .canvas1 .rightcolumn {
+        width: 59%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .canvas1 .rightcolumn {
+        width: 40%;
     }
 }
 
