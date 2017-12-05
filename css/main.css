@@ -150,6 +150,10 @@ main {
     margin-bottom: 4%;
 }
 
+.gold1 main h2 {
+    padding-top: 2%;
+}
+
 .silver1 main {
     background-color: rgba(251, 251, 251, 0.75);
     padding-bottom: 0.5%;
@@ -467,7 +471,39 @@ footer p {
     }
 }
 
+@media (min-width: 600px) {
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 813px) {
+
+    /* Increase font sizes */
+    body {
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
 
     /* Switch to full calendar view at 813 px */
     #agendaview {
@@ -481,5 +517,16 @@ footer p {
 
     .silver1 main {
         margin-bottom: 30%;
+    }
+}
+
+@media (min-width: 900px) {
+
+    header img {
+        max-width: 318px;
+    }
+
+    header h1 {
+        font-size:1.8rem;
     }
 }
