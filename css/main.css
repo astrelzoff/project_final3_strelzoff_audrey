@@ -297,6 +297,17 @@ footer p {
 }
 
 /* CLasses page styling */
+#card {
+    width: 60%;
+    max-width: 200px;
+    margin: auto;
+}
+
+#card img {
+    Width: 100%;
+    filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+}
+
 #policy,
 #about {
     color: #406fb6;
@@ -567,6 +578,28 @@ footer p {
 
     .silver1 main {
         margin-bottom: 30%;
+    }
+
+    #card {
+        position: absolute;
+        top: 28%;
+        left: 60%;
+        right: 0;
+        width: 60%;
+    }
+
+    #card p {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    #appendAfter p:first-of-type {
+        padding-bottom: 10%;
+    }
+
+    #card img {
+        Width: 100%;
+        filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
     }
 }
 
