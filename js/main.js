@@ -32,7 +32,9 @@ newdiv.id = 'card';
 //Give the created div the inner html of the image and paragraph suggesting people purchase a gift card.
 newdiv.innerHTML = '<img src="img/card1.png"><p>Give the gift of art and happiness this Christmas with a gift card from Arts and Design Society.</p>';
 // Get the element by id to add the new div after and append it
-document.getElementById('appendAfter').append(newdiv);
+var insertHere = document.getElementById('appendAfter');
+// get the second chold of the target and insert the newdiv
+insertHere.children['1'].append(newdiv);
 
 
 // Document loaded function
