@@ -1,4 +1,4 @@
-// Custom Javascript
+// Custom Javascript for donate button changes
 // Set a global variable for the button and retrieve the figure with id of donate
 var theButton = document.getElementById('donate');
 
@@ -24,6 +24,18 @@ theButton.addEventListener('mousedown', function () {
 });
 
 
+// Custom Javascript on classes page
+// Create a global variable set to a created div
+var newdiv = document.createElement('div');
+// Give the created div an id of card
+newdiv.id = 'card';
+//Give the created div the inner html of the image and paragraph suggesting people purchase a gift card.
+newdiv.innerHTML = '<img src="img/card1.png"><p>Give the gift of art and happiness this Christmas with a gift card from Arts and Design Society.</p>';
+// Get the element by id to add the new div after and append it
+document.getElementById('appendAfter').append(newdiv);
+
+
+// Document loaded function
 $(document).ready(function () {
     // jQuery Navigation Plug-in
     $('#menu-container').responsiveMenu();
