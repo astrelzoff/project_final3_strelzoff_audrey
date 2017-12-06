@@ -59,16 +59,23 @@ $(document).ready(function () {
 
 });
 
-var test=get elementsByClassName()
-
-// Custom Javascript on classes page
-// Create a global variable set to a created div
-var newdiv = document.createElement('div');
-// Give the created div an id of card
-newdiv.id = 'card';
-//Give the created div the inner html of the image and paragraph suggesting people purchase a gift card.
-newdiv.innerHTML = '<img src="img/card1.png"><p>Give the gift of art and happiness this Christmas with a gift card from Arts and Design Society.</p>';
-// Get the element by id to add the new div after and append it
+//Custom JavaScript to insert a gift card on the classes page
+// Get the element by id to add the new div after
 var insertHere = document.getElementById('appendAfter');
-// get the second chold of the target and insert the newdiv
-insertHere.children['1'].append(newdiv);
+
+// Create if loop to solve errors on other pages without the appendAfter id
+if (insertHere === null) {
+    console.log('This is not the card page.');
+} else {
+
+    // Custom Javascript on classes page
+    // Create a global variable set to a created div
+    var newdiv = document.createElement('div');
+    // Give the created div an id of card
+    newdiv.id = 'card';
+    //Give the created div the inner html of the image and paragraph suggesting people purchase a gift card.
+    newdiv.innerHTML = '<img src="img/card1.png"><p>Give the gift of art and happiness this Christmas with a gift card from Arts and Design Society.</p>';
+
+    // get the second child of the target and insert the newdiv
+    insertHere.children['1'].append(newdiv);
+}
