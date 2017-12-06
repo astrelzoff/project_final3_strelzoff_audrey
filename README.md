@@ -116,7 +116,7 @@
 * [Google Calendar customization 2](https://calendar.google.com/calendar/embedhelper?src=o350pomfd9fnlijfq232d2t814%40group.calendar.google.com&ctz=America/New_York)
 
 * [CSS3 @media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
- - This was used for a list of media query featured to address orientation
+    - This was used for a list of media query featured to address orientation
 
 * [Changing commit messages with Git](http://blog.santosvelasco.com/2011/02/16/changing-commit-messages-with-git/)
     - To help me remember how to amend a typo on a commit
