@@ -17,8 +17,15 @@
 
 * [W3C Validator link - membership](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2Fmembership.html&ucn_task=conformance#)
 
-* [HTML5 Outliner link](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2F)
+* [HTML5 Outliner link - index](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2F)
 
+* [HTML5 Outliner link - classes]()
+
+* [HTML5 Outliner link - calendar]()
+
+* [HTML5 Outliner link - galleries]()
+
+* [HTML5 Outliner link - membership]()
 
 ## 2. Resources
 
