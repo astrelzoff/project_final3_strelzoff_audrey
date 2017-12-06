@@ -93,10 +93,10 @@
     - Downloaded the 3.2.1 minified version of jQuery
 
 * [Multi-level Responsive Toggle Navigation Plugin For jQuery](https://www.jqueryscript.net/menu/Multi-level-Responsive-Toggle-Navigation-Plugin-For-jQuery.html)
-    - This plug-in is implemented as the top navigation on all pages
+    - This plug-in is implemented as the top navigation on all pages. It Turns from a hamburger menu that slides up when opened on small screens to a horizontal menu on larger screens
 
 * [Nanogallery2](https://nanogallery2.nanostudio.org/index.html)
-    - This plug-in is implemented only on the gallery page
+    - This plug-in is implemented only on the gallery page. It creates a responsive gallery for the images in a grid.
 
 ### Other resources
 

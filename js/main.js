@@ -26,19 +26,19 @@ theButton.addEventListener('mousedown', function () {
 
 // Document loaded function
 $(document).ready(function () {
-    // jQuery Navigation Plug-in
+    // jQuery Navigation Plug-in on every page to change the top nav from hamburger on small screens to horizontal list on large screens
     $('#menu-container').responsiveMenu();
 
 
     // Custom jQuery to hide the Classes page Refund Policy
     $('#showpolicy').hide();
 
-    // On click of the policy span, show the policy
+    // On click of the policy span, show the refund policy on the classes page
     $('#policy').on('click', function () {
         $('#showpolicy').show();
     });
 
-    // On click of the x image, hide the policy
+    // On click of the x image, hide the policy on the classes page
     $('#closepolicy').on('click', function () {
         $('#showpolicy').hide();
     });
@@ -47,12 +47,12 @@ $(document).ready(function () {
     // Custom jQuery to hide the About div on the home page
     $('#showabout').hide();
 
-    // On click of the policy span, show the policy
+    // On click of the about span, show the about section
     $('#about').on('click', function () {
         $('#showabout').show();
     });
 
-    // On click of the x image, hide the policy
+    // On click of the x image, hide the about section
     $('#closeabout').on('click', function () {
         $('#showabout').hide();
     });
@@ -68,7 +68,7 @@ if (insertHere === null) {
     console.log('This is not the card page.');
 } else {
 
-    // Custom Javascript on classes page
+    // Custom Javascript on classes page to create a div, insert a card image and append to the page
     // Create a global variable set to a created div
     var newdiv = document.createElement('div');
     // Give the created div an id of card
