@@ -132,6 +132,15 @@
 * [Easel Picture](https://pixabay.com/en/paintings-stand-artist-isolated-316440/)
     - Source of easel picture.
 
+* [Border flourish](https://pixabay.com/p-31609/?no_redirect)
+    - Image of flourish that I adjusted color and transparency of
+
+* [HTML DOM innerHTML Property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+    - Used for examples of writing innerHTML
+
+* [HTML DOM id Property](https://www.w3schools.com/jsref/prop_html_id.asp)
+    - Used to learn how to create the card id
+
 ## 3. Deductions
 * I reviewed the list of deductions for this project and in the syllabus.
 
