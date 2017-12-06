@@ -271,6 +271,7 @@ footer ul li {
     width: calc(96% / 3);
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
 }
 
 /* Change to 4 list items with donate button in footer */
