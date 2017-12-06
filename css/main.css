@@ -581,9 +581,9 @@ footer p {
     }
 
     #card {
-        position: absolute;
-        top: 28%;
-        left: 60%;
+        position: relative;
+        top: -7rem;
+        left: 35%;
         right: 0;
         width: 60%;
     }
@@ -594,7 +594,7 @@ footer p {
     }
 
     #appendAfter p:first-of-type {
-        padding-bottom: 10%;
+        margin-bottom: 0;
     }
 
     #card img {
