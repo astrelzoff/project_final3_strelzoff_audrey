@@ -25,7 +25,7 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 400;
     color: #1f1d25;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 
 body.paper1 {
