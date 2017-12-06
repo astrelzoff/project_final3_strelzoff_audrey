@@ -2,13 +2,22 @@
 
 ## 1. links
 
-* [Github link]()
+* [Github link](https://github.com/astrelzoff/project_final3_strelzoff_audrey)
 
-* [Web Host link]()
+* [Web Host link](http://www.strelzoffs.com/project_final3_strelzoff_audrey/)
 
-* [W3C Validator link]()
+* [W3C Validator link - index](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2F&ucn_task=conformance#)
 
-* [HTML5 Outliner link]()
+* [W3C Validator link - classes](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2Fclasses.html&ucn_lang=en&ucn_task=conformance#)
+
+* [W3C Validator link - calendar](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2Fcalendar.html&ucn_lang=en&ucn_task=conformance#)
+
+* [W3C Validator link - galleries](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2Fgalleries.html&ucn_lang=en&ucn_task=conformance#)
+    -There are errors from the plug-in for the Gallery. This is not from my code.
+
+* [W3C Validator link - membership](http://validator.w3.org/unicorn/check?ucn_uri=www.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2Fmembership.html&ucn_task=conformance#)
+
+* [HTML5 Outliner link](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.strelzoffs.com%2Fproject_final3_strelzoff_audrey%2F)
 
 
 ## 2. Resources
